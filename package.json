@@ -31,7 +31,7 @@
   "peerDependencies": {
     "react": ">=16"
   },
-  "name": "template-react-lib",
+  "name": "@momenta/template-react-lib",
   "author": "DHN Chandan",
   "module": "dist/template-react-lib.esm.js",
   "size-limit": [
