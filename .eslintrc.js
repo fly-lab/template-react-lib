@@ -22,7 +22,7 @@ module.exports = {
 			},
 			{
 				selector: "function",
-				format: ["PascalCase"],
+				format: ["PascalCase", "camelCase"],
 			},
 			{
 				selector: "typeLike",
