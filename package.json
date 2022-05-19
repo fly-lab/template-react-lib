@@ -64,5 +64,11 @@
 		"tsdx": "^0.14.1",
 		"tslib": "^2.4.0",
 		"typescript": "^4.6.4"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.9.0",
+		"@emotion/styled": "^11.8.1",
+		"@mui/icons-material": "^5.8.0",
+		"@mui/material": "^5.8.0"
 	}
 }
