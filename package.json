@@ -1,68 +1,68 @@
 {
-  "version": "0.2.4",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "engines": {
-    "node": ">=14"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/grid-momenta/template-react-lib.git"
-  },
-  "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
-  "peerDependencies": {
-    "react": ">=16"
-  },
-  "name": "@grid-momenta/template-react-lib",
-  "author": "DHN Chandan",
-  "module": "dist/template-react-lib.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/template-react-lib.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/template-react-lib.esm.js",
-      "limit": "10 KB"
-    }
-  ],
-  "devDependencies": {
-    "@babel/core": "^7.17.12",
-    "@rushstack/eslint-config": "^2.6.0",
-    "@size-limit/preset-small-lib": "^7.0.8",
-    "@storybook/addon-essentials": "^6.4.22",
-    "@storybook/addon-info": "^5.3.21",
-    "@storybook/addon-links": "^6.4.22",
-    "@storybook/addons": "^6.4.22",
-    "@storybook/react": "^6.4.22",
-    "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.4",
-    "babel-loader": "^8.2.5",
-    "eslint": "^8.15.0",
-    "husky": "^8.0.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-is": "^18.1.0",
-    "size-limit": "^7.0.8",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.4.0",
-    "typescript": "^4.6.4"
-  }
+	"version": "0.2.4",
+	"license": "MIT",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"engines": {
+		"node": ">=14"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/grid-momenta/template-react-lib.git"
+	},
+	"scripts": {
+		"start": "tsdx watch",
+		"build": "tsdx build",
+		"test": "tsdx test --passWithNoTests",
+		"lint": "tsdx lint",
+		"prepare": "tsdx build",
+		"size": "size-limit",
+		"analyze": "size-limit --why",
+		"storybook": "start-storybook -p 6006",
+		"build-storybook": "build-storybook"
+	},
+	"peerDependencies": {
+		"react": ">=16"
+	},
+	"name": "@grid-momenta/template-react-lib",
+	"author": "DHN Chandan",
+	"module": "dist/template-react-lib.esm.js",
+	"size-limit": [
+		{
+			"path": "dist/template-react-lib.cjs.production.min.js",
+			"limit": "10 KB"
+		},
+		{
+			"path": "dist/template-react-lib.esm.js",
+			"limit": "10 KB"
+		}
+	],
+	"devDependencies": {
+		"@babel/core": "^7.17.12",
+		"@rushstack/eslint-config": "^2.6.0",
+		"@size-limit/preset-small-lib": "^7.0.8",
+		"@storybook/addon-essentials": "^6.4.22",
+		"@storybook/addon-info": "^5.3.21",
+		"@storybook/addon-links": "^6.4.22",
+		"@storybook/addons": "^6.4.22",
+		"@storybook/react": "^6.4.22",
+		"@types/react": "^18.0.9",
+		"@types/react-dom": "^18.0.4",
+		"babel-loader": "^8.2.5",
+		"eslint": "^8.15.0",
+		"husky": "^8.0.1",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"react-is": "^18.1.0",
+		"size-limit": "^7.0.8",
+		"tsdx": "^0.14.1",
+		"tslib": "^2.4.0",
+		"typescript": "^4.6.4"
+	}
 }
