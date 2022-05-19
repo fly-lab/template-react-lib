@@ -27,6 +27,9 @@
 		"prettier:check": "prettier --check .",
 		"prettier:fix": "prettier --write .",
 		"prepare": "tsdx build",
+		"cz": "git cz",
+		"cz:install": "commitizen init cz-conventional-changelog --yarn --dev --exact",
+		"cz:force": "commitizen init cz-conventional-changelog --yarn --dev --exact --force",
 		"size": "size-limit",
 		"analyze": "size-limit --why",
 		"storybook": "start-storybook -p 6006",
@@ -66,6 +69,8 @@
 		"@types/react": "^18.0.9",
 		"@types/react-dom": "^18.0.4",
 		"babel-loader": "^8.2.5",
+		"commitizen": "^4.2.4",
+		"cz-conventional-changelog": "3.3.0",
 		"eslint": "^8.15.0",
 		"husky": "^8.0.1",
 		"react": "^18.1.0",
@@ -83,5 +88,10 @@
 		"@mui/material": "^5.8.0",
 		"lodash": "^4.17.21",
 		"lodash-es": "^4.17.21"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
 	}
 }
