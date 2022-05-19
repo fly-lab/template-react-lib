@@ -52,6 +52,7 @@
 		"@storybook/addon-links": "^6.4.22",
 		"@storybook/addons": "^6.4.22",
 		"@storybook/react": "^6.4.22",
+		"@types/lodash": "^4.14.182",
 		"@types/react": "^18.0.9",
 		"@types/react-dom": "^18.0.4",
 		"babel-loader": "^8.2.5",
@@ -69,6 +70,8 @@
 		"@emotion/react": "^11.9.0",
 		"@emotion/styled": "^11.8.1",
 		"@mui/icons-material": "^5.8.0",
-		"@mui/material": "^5.8.0"
+		"@mui/material": "^5.8.0",
+		"lodash": "^4.17.21",
+		"lodash-es": "^4.17.21"
 	}
 }
