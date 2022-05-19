@@ -35,6 +35,11 @@
 	"peerDependencies": {
 		"react": ">=16"
 	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "prettier --write ."
+		}
+	},
 	"name": "@grid-momenta/template-react-lib",
 	"author": "DHN Chandan",
 	"module": "dist/template-react-lib.esm.js",
