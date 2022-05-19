@@ -4,3 +4,5 @@ playground/.cache
 playground/.parcel-cache
 playground/dist
 **/*.md
+
+coverage
