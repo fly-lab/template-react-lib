@@ -77,10 +77,13 @@
 		"react": "^18.1.0",
 		"react-dom": "^18.1.0",
 		"react-is": "^18.1.0",
+		"regenerator-runtime": "^0.13.9",
+		"require-from-string": "^2.0.2",
 		"size-limit": "^7.0.8",
 		"tsdx": "^0.14.1",
 		"tslib": "^2.4.0",
-		"typescript": "^4.6.4"
+		"typescript": "^4.6.4",
+		"webpack": "^5.72.1"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.9.0",
